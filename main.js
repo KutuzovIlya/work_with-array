@@ -1,6 +1,8 @@
-const arr = ['apple', ':)', 'bla', 'zerro', 'cocos', 'tom', 'dom'];
+const arr = ['apple', ':)', 'bla', 'zerro', 'cocos', 'tom', 'dom', '1', 'macbook', 'one two three'];
 
 const filter_arr = [];
+
+console.log('До фильтрации: ', arr);
 
 for(let i=0; i < arr.length; i++) {
 	if (arr[i].length <= 3) {
@@ -8,5 +10,5 @@ for(let i=0; i < arr.length; i++) {
 	}
 };
 
-console.log('Filter data: ', filter_arr)
+console.log('Отфильтрованный массив: ', filter_arr)
 
